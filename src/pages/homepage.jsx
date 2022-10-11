@@ -6,12 +6,13 @@ import  "../styles/style.css";
 const Homepage = ()=>{
    
     return(
-     <div class="containerFirst">
+        <>
+       <h1 class="h1f" >Image Gallery</h1>
+     <div class="content">
       
         <PictureShow/>
   
-   
-    </div>)
+    </div> </>)
 }
 Homepage();
 export default Homepage;
